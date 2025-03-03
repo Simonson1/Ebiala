@@ -1,12 +1,19 @@
-- 👋 Hi, I’m @Simonson1
-- 👀 I’m interested in Ethical Hacking, Digital Forensic $ Cyber Security
-- 🌱 I’m currently learning Ethical Hacking, Digital Forensic $ Cyber Security
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ebialamoses2019@gmail.com
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Advanced Penetration Testing Framework
 
-<!---
-Simonson1/Simonson1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This project is a custom penetration testing framework that automates several steps of the penetration testing lifecycle, including scanning, exploitation, and reporting. It integrates popular tools like Metasploit, Nmap, and Burp Suite.
+
+## Features:
+- **Automated Vulnerability Scanning**: Leverages Nmap to scan open ports and services.
+- **Exploitation Automation**: Uses Metasploit for exploit automation.
+- **Reporting**: Generates detailed vulnerability reports based on findings.
+
+## How to Use:
+1. Clone the repository.
+2. Set up necessary tools (Metasploit, Burp Suite).
+3. Run the `penTestFramework.py` script to begin automated scanning.
+4. Review the generated report in `output/report.txt`.
+
+## Tools Integrated:
+- **Metasploit** for exploitation.
+- **Nmap** for network scanning.
+- **Burp Suite** for web application security testing.
